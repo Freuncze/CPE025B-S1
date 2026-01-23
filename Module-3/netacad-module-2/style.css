@@ -1,0 +1,44 @@
+/* Styles for the header section */
+.header {
+    background-image: url("https://edube.org/uploads/media/default/0001/03/sunflowers_sunset_full.jpg");
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+  
+body {
+    background-color: lightblue;
+}
+
+.element {
+    background: url('bg-image.jpg') top right / cover no-repeat lightblue;
+}
+
+.spaced-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.spaced-list li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    line-height: 1.6; /* Sets a comfortable line height */
+}
+
+a:link {
+    text-decoration: none; /* Remove underline */
+    color: pink;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    font-weight: bold; /* Add bold font on click */
+    color: black; /* Change color on click to black */
+}
+  

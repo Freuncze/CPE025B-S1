@@ -1,0 +1,131 @@
+  .header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+  .box {
+    /* Content dimensions */
+    width: 200px;
+    height: 100px;
+  /* Padding around content */
+  padding: 20px;
+  
+  /* Border around padding */
+  border: 5px solid #333;
+  
+  /* Margin around border */
+  margin: 30px;
+  
+  /* Additional styles for better visualization */
+  background-color: #f4f4f4;
+  }
+
+  .background-size-box {
+    background-color: #add8e6;
+    background-image: url('https://edube.org/uploads/media/default/0001/04/flowers-banner.png');
+    background-size: cover; /* Ensuring the background covers the entire element */
+    background-clip: border-box; /* Defines how far the background extends */
+    padding: 30px;
+    border: 5px solid black;
+    margin: 20px;
+  }
+
+  .page-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+  }
+  
+  .main-content {
+  background-color: #add8e6;
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+  
+  .footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+  }
+
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .content {
+    margin-top: 50px; /* Ensure content starts below the fixed navigation */
+    padding: 20px;
+  }
+
+  .basic-table tr:hover {
+    background-color: #f5f5f5; /* Lighter shade for hover effect */
+  }
+
+  /* Optional: Alternate row background */
+  .basic-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+
+  .custom-form label {
+    margin-top: 10px;
+    display: block;
+    color: #333;
+  }
+
+  .custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+
+  .custom-form label {
+    margin-top: 10px;
+    display: block;
+    color: #333;
+  }
+
+  .custom-form input[type="text"],
+  .custom-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .button-spacer {
+    height: 20px; /* Adjust the height as needed for appropriate spacing */
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: #45a049;
+  }
