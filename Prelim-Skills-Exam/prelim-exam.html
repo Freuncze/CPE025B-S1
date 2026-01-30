@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>hungry gaymers</title>
+    <style>
+        #title {color: firebrick;}
+        p {font-size: 23px;}
+    </style>
+</head>
+
+<body>
+    <h1 id="title">!REGRETS ARE NOT ALLOWED!</h1>
+    <p>Do you volunteer as a tribute? Offer your soul below</p>
+
+    <form id="survey-form">
+        What's your name? <input id="name" type="text" required="true" placeholder="we will know if it's fake">
+        <label id="name-label"></label>
+        <br><br>
+
+        Tell us your email: <input id="email" type="email" required="true" placeholder="dont@foolus.com">
+        <label id="email-label"></label>
+        <br><br>
+
+        Say your ID number: <input id="number" type="number" required="true" min="18" max="56" placeholder="18">
+        <label id="number-label"></label>
+        <br><br>
+        
+        Where do you reside? 
+        <select id="dropdown">
+            <option>District 6</option>
+            <option>District 7</option>
+            <option>District 9</option>
+        </select>
+        <br><br>
+
+        What is your gender? 
+        Male<input type="radio" name="gender">
+        Female<input type="radio" name="gender">
+        Alien<input type="radio" name="gender">
+        <br><br>
+        
+        What would you rather have?
+        God<input type="checkbox" value="1">
+        Gold<input type="checkbox" value="3">
+        Glory<input type="checkbox" value="5">
+        <br><br>
+
+        Any last words?<br>
+        <textarea placeholder="don't waste our time"></textarea>
+        <br><br>
+
+        <button id="submit">Now give us your blood</button>
+    </form>
+</body>
